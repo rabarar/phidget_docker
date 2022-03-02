@@ -1,0 +1,22 @@
+					Phidget22 Extra for Linux
+				          Version 1.10
+
+	libphidget22extra is an internal library required by several phidgets 
+tools. It is not meant for users to import into their own projects, and it's 
+use in user projects is not officially supported.
+
+Installation
+============
+
+     ./configure; make; make install
+	
+Requirements
+============
+
+	libphidget22
+
+Usage
+=====
+
+   Compile your projects with -lphidget22extra and include phidget22extra.h
+in the source file.
